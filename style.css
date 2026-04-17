@@ -10,3 +10,13 @@ html {
 h1 {
   font-family: "Poetsen One", sans-serif;
 }
+ button {
+  color:rgb(99, 55, 55);
+  background-color: rgb(255, 210, 217);
+  border: 10px;
+  width: 100px;
+  align-center;
+ }
+ p {
+  
+ }
