@@ -4,19 +4,34 @@
 html {
   background-color: white;
   padding-left: 20px;
+  text-align: center;
+  margin:auto;
+  width:fit-content;
 }
 
 /* ======================== CSS Rule #2 */
 h1 {
-  font-family: "Poetsen One", sans-serif;
+  font-family:'Times New Roman', Times, serif;
+  color:rgb(63, 37, 37);
 }
  button {
   color:rgb(99, 55, 55);
   background-color: rgb(255, 210, 217);
   border: 10px;
-  width: 100px;
   align-center;
- }
- p {
+  
   
  }
+ .fb { color:rgb(63, 37, 37);
+  background-color: rgb(236, 182, 190);
+ }
+.cb {
+  color:rgb(63, 37, 37);
+  background-color: rgb(255, 163, 194);
+  border-radius: 20px;
+  padding: 20px;
+}
+  img {
+border-radius: 20px;
+  }
+ 

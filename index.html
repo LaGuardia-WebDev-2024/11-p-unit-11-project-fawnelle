@@ -22,6 +22,7 @@ Select ONE Additional
   </head>
   <body>
     
+    <img src="https://media.tenor.com/PHSN-ktI1BoAAAAi/bunny-cute.gif">
     <h1>My Top 3 <span id="favorite">Oshis</span>!!</h1>
     <button id="mem1-button">rikako</button>
     <button id="mem2-button">yuka</button>
@@ -29,16 +30,33 @@ Select ONE Additional
     <ol>
       <li>
         <br>
-        <p>Rikako Aida!</p>
+        <img src="https://media.tenor.com/tqstiWiHUXwAAAAi/flower.gif">
+        <h1>Rikako Aida!</h1>
         <h3 id="mem1"><img src="https://media1.tenor.com/m/UJphC1Tiw6UAAAAd/aida-rikako.gif" 
-          width="350"
+          width="400"
           ></h3>
+           <p class="fb">Rikako ( Also known as her nickname Rikyako ) is the seiyuu (Voice actor) of the character Riko Sakuruachi from LoveLive!Sunshine. 
+            Her and along the rest of the group Aqours perform live! Her character has always been my favorite, I often gravitate to the pink idols..
+          as you can tell >.< She's so cute and elegant, and her live vocals always impress me. My favorite center song of hers is "想いよひとつになれ"
+        (Omoi Yo Hitotsu Ni Nare) and my favorite solo is Love Spiral Tower. She's also in the subunit "Guilty KISS" which is the best Aqours subunit in my opinion" </p>
       </li>
 
       <li>
-        <p>Himemiya Yuka</p>
+        <h1>Himemiya Yuka</h1>
+        <img src="https://media1.tenor.com/m/Nx7V6kD2JhYAAAAC/paper-lily-bunny.gif"
+          width="105px">
         <h3 id="mem2"><img src="https://media1.tenor.com/m/A6PYdU7cyT0AAAAd/jpop-avam.gif"
-          width="350"></h3>
+          width="400"></h3>
+          
+          <p class="cb">YUKAPI!!! Yuka is the pink image color of the group "AVAM" She's adorable. I mean..look at her!!!!
+            I love her so much her cute pigtails waaaaa.... <br>
+            T-T Her voice is also extremely cute. She's defintely my current kamioshi (god-tier/favorite)
+            <br> I really hope to cover their song "Kiss&Bite Me", and I also love "Warui Renai" !!! I really wanna make an ita bag for her before my Japan trip this summer!!
+            GAH. shes SO CUTE LIKEHYFHFGKFGHJ
+          </p>
+          <img class="yuka" src="https://media1.tenor.com/m/X9004rI6z3QAAAAC/jpop-avam.gif"
+          width="400px">
+           
       </li>
 
       <li>
@@ -49,30 +67,39 @@ Select ONE Additional
     </ol>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
+<script>
 $(".fb").hide();
 $(".cb").hide();
 $(".ch").hide();
-$("#tyler").text(" tyler");
+$(".yuka").hide();
+$("#favorite").text("Oshis");
       // ======================== Button #1
       $("#mem1-button").click(function () {
         $("#mem1").css("color", "purple");
         $(".fb").show(500);
-        $("#tyler").text(" Tyler the Creator");
+        $("#favorite").text("favorite idols");
       });
 
       // ======================== Button #2
       $("#mem2-button").click(function () {
         $("#mem2").css("color", "blue");
         $(".cb").show(500);
-        $("#tyler").text(" Tyler, The Creator");
+        $("#favorite").text("favorite idols");
       });
+
+      // ======================== Button #2.5
+      $("#mem2-button").click(function () {
+        $("#mem2").css("color", "blue");
+        $(".yuka").show(500);
+        $("#favorite").text("favorite idols");
+      });
+
 
       // ======================== Button #3
       $("#mem3-button").click(function () {
         $("#mem3").css("color", "green");
         $(".ch").show(500);
-        $("#tyler").text(" Tyler, The Creator");
+        $("#favorite").text("favorite idols");
       });
 
 
